@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-return-early-dont-assign",
+  "version": "1.0.0",
+  "description": "Avoid assignment when you could just return.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jason Pettett",
+  "directories": {
+    "doc": "docs"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": ">=4.18.2",
+    "mocha": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadbeef404/eslint-plugin-return-early-dont-assign.git"
+  },
+  "license": "MIT"
+}
