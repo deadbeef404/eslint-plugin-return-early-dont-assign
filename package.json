@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-return-early-dont-assign",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Avoid assignment when you could just return.",
   "keywords": [
     "eslint",
