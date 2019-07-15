@@ -30,6 +30,16 @@ Add `return-early-dont-assign` to the plugins section of your `.eslintrc` config
 }
 ```
 
+Then configure the rules you want to use under the rules section. eg.
+
+```json
+{
+    "rules": {
+        "return-early-dont-assign/return-early-dont-assign": 2
+    }
+}
+```
+
 ## Supported Rules
 
 * return-early-dont-assign
